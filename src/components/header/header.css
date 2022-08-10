@@ -1,6 +1,10 @@
 .header {
   position: sticky;
   display: flex;
+  justify-content : space-evenly;
+  border-bottom: 0.1px solid lightgray;
+  padding-top: 10px;
+  padding-bottom :10px;
   /* flex-direction: row; */
 }
 .header_left {
@@ -11,11 +15,12 @@
   height: 40px;
   color: gray;
   margin-right: 10px;
+  
 }
 .header__search {
   display: flex;
   padding: 10px;
-  align-item: center;
+  align-items: center;
   border-radius: 5px;
   height: 22px;
   background-color: #eef3f8;
@@ -26,4 +31,11 @@
   outline: none;
   border: none;
   background: none;
+}
+
+.header__right{
+  display:flex;
+}
+.header__icons{
+  align-item :center;
 }

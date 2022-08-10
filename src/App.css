@@ -1,3 +1,12 @@
 *{
   margin :0;
 }
+.app_body{
+   display:flex;
+   width:100%;
+}
+.app{
+  background-color:#f3f2ef;
+  align-items:center;
+  
+}
