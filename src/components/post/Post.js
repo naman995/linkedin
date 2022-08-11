@@ -2,7 +2,6 @@ import { Avatar } from "@mui/material";
 import React from "react";
 import "./Post.css";
 import InputOption from "../feed/InputOption";
-
 import ThumbUpOffAltIcon from "@mui/icons-material/ThumbUpOffAlt";
 import ChatOutlinedIcon from "@mui/icons-material/ChatOutlined";
 import ShareOutlinedIcon from "@mui/icons-material/ShareOutlined";
