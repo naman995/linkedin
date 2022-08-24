@@ -1,11 +1,29 @@
-import React from 'react'
+import React from "react";
+import "./widget.css";
+import InfoIcon from "@mui/icons-material/Info";
+import FiberManualRecordIcon from "@mui/icons-material/FiberManualRecord";
 
 function Widget() {
-  return (
-    <div className='widget'>
-        widgetseeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+  const newsArtivle = (heading, subtitle) => (
+    <div className="widget_article">
+      <div className="widget_articleLeft">
+        <FiberManualRecordIcon size={30}/>
+      </div>
+      <div className="widget_articleRight">
+        <h4>{heading}</h4>
+        <p>{subtitle}</p>
+      </div>
     </div>
-  )
+  );
+  return (
+    <div className="widget">
+      <div className="widgets__header">
+        <h2>LinkedIn News</h2>
+        <InfoIcon size={20} />
+      </div>
+      {newsArtivle("React is back", "Top news - 9099 readers")}
+    </div>
+  );
 }
 
-export default Widget
+export default Widget;
