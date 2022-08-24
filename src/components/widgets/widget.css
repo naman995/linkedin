@@ -20,3 +20,14 @@
 .widgets__header > InfoIcon {
   margin-left: 10px;
 }
+
+.widget__article{
+  display:flex;
+  padding:10px;
+  cursor: pointer;
+   background-color:red;
+}
+.widget_article:hover{
+  background-color:whitesmoke;
+}
+ 

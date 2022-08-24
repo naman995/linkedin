@@ -7,7 +7,7 @@ function Widget() {
   const newsArtivle = (heading, subtitle) => (
     <div className="widget_article">
       <div className="widget_articleLeft">
-        <FiberManualRecordIcon size={30}/>
+        <FiberManualRecordIcon size={30} />
       </div>
       <div className="widget_articleRight">
         <h4>{heading}</h4>
@@ -18,10 +18,17 @@ function Widget() {
   return (
     <div className="widget">
       <div className="widgets__header">
-        <h2>LinkedIn News</h2>
-        <InfoIcon size={20} />
+        <div>
+          <InfoIcon size={20} />
+        </div>
+        <div >
+          <h2>LinkedIn News</h2>
+        </div>
       </div>
+      <div>
+
       {newsArtivle("React is back", "Top news - 9099 readers")}
+      </div>
     </div>
   );
 }
